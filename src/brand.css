@@ -1,0 +1,23 @@
+/* TANAMORA brand identity */
+.brand { min-width: 0; gap: 9px; }
+.brand-mark { flex: 0 0 39px; }
+.brand-copy { min-width: 0; flex: 1; }
+.brand .brand-copy strong { font-size: 15px; letter-spacing: .45px; white-space: nowrap; }
+.brand .brand-copy small { max-width: 162px; font-size: 7px; line-height: 1.35; letter-spacing: .08px; white-space: normal; }
+.sidebar-close { flex: 0 0 30px; }
+.dashboard-brand { color: #b9ebbf; font-size: .83em; letter-spacing: 1.1px; }
+.welcome-copy h1 { margin-top: 9px; }
+.welcome-copy .welcome-description { margin-top: 5px; }
+.report-brand { align-items: flex-start; }
+.report-brand > span:last-child { line-height: 1.35; }
+.report-brand small { font-size: 8px; letter-spacing: 0; color: #728878; }
+.report-brand em { display: block; color: #52835d; font: 600 7px 'DM Sans', sans-serif; letter-spacing: .15px; margin-top: 2px; }
+@media (max-width: 600px) {
+  .brand { gap: 8px; }
+  .brand-mark { flex-basis: 35px; width: 35px; height: 35px; }
+  .brand .brand-copy strong { font-size: 14px; }
+  .brand .brand-copy small { max-width: 147px; font-size: 6.5px; }
+  .welcome-banner { min-height: 306px; }
+  .welcome-copy h1 { font-size: 23px; }
+  .welcome-copy .welcome-description { max-width: 280px; }
+}
